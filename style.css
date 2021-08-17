@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background: url(nasa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.form {
+    width: 30%;
+    background: #fffffff7;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.lebel-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+span {
+    font-size: 12px;
+}
+
+input {
+    width: 97%;
+    padding: 5px;
+    border: 1.8px solid #999;
+    border-radius: 3px;
+    outline: none;
+    font-size: 16px;
+    background: #fffffff7;
+}
+
+.lebel-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+.btn {
+    display: flex;
+}
+.btn div {
+    background: blue;
+    color: #fff;
+    margin-right: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 900;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #999;
+    width: 100%;
+    margin-top: 16px;
+    padding-top: 8px;
+}
